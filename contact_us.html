@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact  Us</title>
+</head>
+<body>
+    <a href="index.html">Home</a>
+    <a href="contact_us.html"> Contact Us</a>
+    <a href ="about_us.html"> About Us</a>
+
+     <h1 style="color: blue;">Contact Us </h1>
+     <h2 style="color: blue;"> Persons</h2>
+     <table>
+        <tr>
+            <th> Persons</th>
+            <th> Position</th>
+            <th> Email Addresa</th>
+            <th> Telephone Number</th>
+        </tr>
+<tr>
+    <td> Jordain Campbell</td>
+    <td>Managing Director</td>
+    <td> jcampbell@vehiclespec.com</td>
+    <td>876-564-9088/876-965-7888</td>
+</tr>
+<tr>
+    <td> Joana Reid</td>
+    <td>Automotive Manager</td>
+    <td> joareid@vehiclespec.com</td>
+    <td>876-594-9088/876-965-7838</td>
+</tr><tr>
+    <td>  Amber Roberts</td>
+    <td> Automotive Consultant</td>
+    <td> aroberts@vehiclespec.com</td>
+    <td>876-544-9018/876-965-7884</td>
+</tr>
+     </table>
+     <h2 style="color: blue;">  General Inquiries</h2>
+     <form action="confirmation.html">
+        <label  for="fullname">Name: * </label>
+        <br />
+        <input required  type ="text"  id="fullname" name="fullname" />
+        <br />
+        <br/>
+        <label required for="Email">Email Address: * </label>
+        <br /> 
+        <input type="email" id="Email" name="EmailAddress"/>
+        <br />
+        <br />
+        <label> Are  you employed</label>
+        <input type="radio"  value ='Y' name = "employed"/> Yes
+        <input type="radio"  value ='N' name="employed"/> No
+        <br />
+        <br/>
+        <label for="inquiry"> State Your Inquiry?</label>
+        <br/>
+        <br/>
+        <textarea cols ="50" rows="10" maxlength="100" id="inquiry" name="inquiry"></textarea>
+<br/>
+<br/>
+        <input type ="submit"/>
+    </form>
+
+</body>
+</html>
