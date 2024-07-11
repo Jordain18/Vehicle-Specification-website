@@ -1,0 +1,14 @@
+h1{
+    color : mediumseagreen;
+ }
+
+    h2{
+        color :dodgerblue; 
+        text-decoration: underline;
+    }
+    h1,h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+     p {
+            font-family :'Courier New', Courier,monospace;
+    }
